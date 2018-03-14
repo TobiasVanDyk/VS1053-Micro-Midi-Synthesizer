@@ -1,0 +1,2 @@
+(1) When state is saved in flash memory channel 0 params are save but channel 1 instrument is not read correctly after rebooting
+(2) Actually need more than just 3 midi channels active for example when playing amidi file many instruments could be spread across many midi channels. Threfore need a sixth option "All cahnnel" in the Midi channels function

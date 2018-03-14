@@ -1,0 +1,12 @@
+Hi
+I searched for the Korg MS20 and it seems to be a very nice analog synth with a pitch to CV converter. That means if you can find a CV to Midi note converter (they must exist) you can send Midi note messages to the Arduino micro-midi box.
+
+Note that the Arduino midi box does not transmit any midi messages - it only receives them and produce the corresponding voice output
+
+I am not sure how you can add a usb connection (in or out) to the Korg - an Arduino teensy can definitely translate the CV of your Korg and send them out through either a midi interface or its own usb port. For input there are Teensy circuits where the Teensy acts as a USB to midi converter and if you add a Midi to CV converter you can talk to your Korg via a PC usb interface
+
+I do not have current links but search for "Teensy Midi CV interface" perhaps
+
+Best wishes
+
+Tobias van Dyk

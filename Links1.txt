@@ -1,0 +1,13 @@
+https://www.sparkfun.com/products/12660
+http://www.vlsi.fi/en/products/vs1053.html
+https://www.adafruit.com/product/1381
+https://github.com/adafruit/Adafruit_VS1053_Library
+https://github.com/sparkfun/MP3_Player_Shield/tree/V_1.5
+https://wiki.wemos.cc/products:d1_mini_shields:oled_shield
+
+github.com/adafruit/Adafruit_VS1053_Library
+wiki.wemos.cc/products:d1_mini_shields:oled_shield
+github.com/mcauser/Adafruit_SSD1306/tree/esp8266-64x48
+www.vlsi.fi/en/home.html
+
+http://www.vlsi.fi/en/home.html
