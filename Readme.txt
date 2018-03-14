@@ -45,10 +45,6 @@ A slightly modified version of the Adafruit Graphics library had been used to ca
 Importantly when the sketch is executed for the first time on the ATmega328 whether it is on an Uno or standalone, the code will load parameter presets from the ATmega328 Eeprom that may not be valid. In that case you can either write all zeroes to the Eeprom using the X option with the down button, or comment out the line in the void setup function that loads values from the Eeprom when it is first started, adjust your instruments etc. to your liking, and then save your presets with the S option Up button.
 Credit is given to all the persons and entities mentioned for their code and libraries..
 
-Attachments MidiA.inoMidiA.ino Download
-
-?Add TipVAsk Question|CommentDownload
-
 Step 4: Links
 
 VLSI: http://www.vlsi.fi/en/home.html
@@ -57,16 +53,8 @@ Github VS1053b: https://github.com/adafruit/Adafruit_VS1053_Library
 Github Graphics: https://github.com/mcauser/Adafruit_SSD1306/tree/esp8266-64x48
 Oled: https://wiki.wemos.cc/products:d1_mini_shields:oled_shield
 Sparkfun: https://www.sparkfun.com/products/12660
-?Add TipVAsk Question|CommentDownload
 
 Step 5: Using the Sparkfun Board With the Adafruit Libraries
-
-
-Picture of Using the Sparkfun Board With the Adafruit Libraries
-
-
-
-
 
 
 The table in the picture explains how to connect either the Adafruit or the Sparkfun Music Boards to use another library.
