@@ -1,6 +1,6 @@
 # VS1053 Micro Midi Synthesizer
 
-<img src="https://github.com/TobiasVanDyk/VS1053-Micro-Midi-Synthesizer/blob/master/pic4.jpg" width="400" height="592" />
+<img src="https://github.com/TobiasVanDyk/VS1053-Micro-Midi-Synthesizer/blob/master/pic4.jpg" width="300" height="450" />
 
 ### Introduction: 
 
