@@ -36,12 +36,11 @@ The LED is used as a Midi activity indicator and was mounted on the front side o
 The OLED Display use the 3.3 volt output from the Adafruit board for power - it requires less than 20 mA.
 Try swapping the two Midi Din connections if you do not hear any audio when you first use the synth.
 
-<img src="https://github.com/TobiasVanDyk/VS1053-Micro-Midi-Synthesizer/blob/master/pic1.jpg" width="400" height="479" />
-
-<img src="https://github.com/TobiasVanDyk/VS1053-Micro-Midi-Synthesizer/blob/master/pic2.jpg" width="400" height="429" />
-
-<img src="https://github.com/TobiasVanDyk/VS1053-Micro-Midi-Synthesizer/blob/master/pic3.jpg" width="400" height="525" />
-
+<p align="center">
+<img src="pic1.jpg" width="320" />  
+<img src="pic2.jpg" width="320" />  
+<img src="pic3.jpg" width="320" />  
+</p>
 
 ### Software
 
