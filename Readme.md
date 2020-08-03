@@ -1,6 +1,6 @@
 # VS1053 Micro Midi Synthesizer
 
-<img src="https://github.com/TobiasVanDyk/VS1053-Micro-Midi-Synthesizer/blob/master/pic4.jpg" width="300" height="450" />
+<img src="images/pic4.jpg" width="300" height="450" />
 
 ### Introduction: 
 
@@ -28,7 +28,7 @@ Most of the code used to control the audio/midi DSP was developed using an Ardui
 
 ### Construction
 
-<img src="https://github.com/TobiasVanDyk/VS1053-Micro-Midi-Synthesizer/blob/master/vs1053b Sketch 1_bb.png" width="802" height="688" />
+<img src="images/vs1053b Sketch 1_bb.png" width="802" height="688" />
 
 The lid of the enclosure houses the OLED Display, the three buttons that are mounted on another small piece of Veroboard, and the barrel power connector. The main Vero circuit board has two holes to fix the Music breakout board above the ATmega328. For connection details please refer to the Fritzing strip board diagram.
 The programmed ATmega328 (please refer to the next section for the code) is then inserted into its socket followed by the 6N139 and everything is connected up.
@@ -37,9 +37,9 @@ The OLED Display use the 3.3 volt output from the Adafruit board for power - it 
 Try swapping the two Midi Din connections if you do not hear any audio when you first use the synth.
 
 <p align="center">
-<img src="pic1.jpg" width="320" />  
-<img src="pic2.jpg" width="320" />  
-<img src="pic3.jpg" width="320" />  
+<img src="images/pic1.jpg" width="320" />  
+<img src="images/pic2.jpg" width="320" />  
+<img src="images/pic3.jpg" width="320" />  
 </p>
 
 ### Software
@@ -54,6 +54,7 @@ Note that the VS1053b boots in a real-time Midi mode by loading a 1039 byte comp
 A slightly modified version of the Adafruit Graphics library had been used to cater for the 64x48 pixel resolution of the OLED Display - please refer to the links given at the end for Mr Mcauser. A list of the required libraries is given in the sketch code.
 
 Importantly when the sketch is executed for the first time on the ATmega328 whether it is on an Uno or standalone, the code will load parameter presets from the ATmega328 Eeprom that may not be valid. In that case you can either write all zeroes to the Eeprom using the X option with the down button, or comment out the line in the void setup function that loads values from the Eeprom when it is first started, adjust your instruments etc. to your liking, and then save your presets with the S option Up button.
+
 Credit is given to all the persons and entities mentioned for their code and libraries..
 
 ### Links
